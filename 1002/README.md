@@ -1,4 +1,4 @@
-# [1002. A+B for Polynomials (25)](https://www.patest.cn/contests/pat-a-practise/1002)
+# 1002. A+B for Polynomials (25)
 
 This time, you are supposed to find A+B where A and B are two polynomials.
 
@@ -13,6 +13,7 @@ For each test case you should output the sum of A and B in one line, with the sa
 **Sample Input**
 
 2 1 2.4 0 3.2
+
 2 2 1.5 1 0.5
 
 **Sample Output**

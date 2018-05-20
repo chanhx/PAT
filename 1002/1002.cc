@@ -3,7 +3,7 @@
 #include <map>
 #include <cmath>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
     std::cout << std::fixed << std::setprecision(1);
 
@@ -18,15 +18,15 @@ int main(int argc, char **argv)
             float coefficient;
             std::cin >> exponent >> coefficient;
 
-            if (polynomial.find(exponent) != polynomial.cend()) {
-                polynomial[exponent] += coefficient;
-            } else {
-                polynomial[exponent] = coefficient;
+            if (polynomial.find(exponent) == polynomial.cend()) {
+                polynomial[exponent] = 0;
             }
+            
+            polynomial[exponent] += coefficient;
         }
     }
     
-    for (const auto & p : polynomial) {
+    for (const auto &p : polynomial) {
         if (std::abs(p.second) <= 1e-7f) {
             polynomial.erase(p.first);
         }
@@ -34,7 +34,7 @@ int main(int argc, char **argv)
 
     std::cout << polynomial.size();
 
-    for (const auto & p : polynomial) {
+    for (const auto &p : polynomial) {
         std::cout << " " << p.first << " " << p.second;
     }
 

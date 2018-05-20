@@ -1,27 +1,27 @@
 #include <iostream>
+#include <sstream>
 
-int main(int argc, char **argv)
+int main(int argc, char *argv[])
 {
-    int a, b, sum;
-
+    int a, b;
     std::cin >> a >> b;
-    sum = a + b;
 
-    auto s = std::to_string(sum);
+    auto s = std::to_string(a + b);
     auto len = s.length();
 
+    std::ostringstream result;
     for (auto i = 0; i < len; ++i) {
-        std::cout << s[i];
+        result << s[i];
 
         if (s[i] == '-') {continue;}
 
         auto bits_left = len - i - 1;
         if (bits_left != 0 && bits_left % 3 == 0)  {
-            std::cout << ',';
+            result << ',';
         }
     }
 
-    std::cout << std::endl;
+    std::cout << result.str() << std::endl;
 
     return 0;
 }

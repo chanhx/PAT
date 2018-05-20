@@ -1,5 +1,6 @@
-# [PAT (Advanced Level) Practice](https://www.patest.cn/contests/pat-a-practise)
+# [PAT (Advanced Level) Practice](https://pintia.cn/problem-sets/994805342720868352/problems)
 
 | ID | Title |
 | :--: | :--: |
-| 1001 | [A+B Format (20)](https://github.com/chanhx/PAT/tree/master/1001)|
+| 1001 | [A+B Format (20)](1001)|
+| 1002 | [A+B for Polynomials (25)](1002)|
