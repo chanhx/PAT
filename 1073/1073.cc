@@ -13,7 +13,7 @@ int main()
     scanf("%c%d.%sE", &sign, &d1, number+1);
     number[0] = d1 + '0';
 
-    for (int i = 1; i < strlen(number); ++i) {
+    for (int i = 1, len = strlen(number); i < len; ++i) {
         if (number[i] == 'E') {
             sscanf(number+i+1, "%c%d", &ex_sign, &exponent);
             number[i] = '\0';
