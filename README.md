@@ -10,4 +10,5 @@
 | 1058 | [A+B in Hogwarts (20)](1058)|
 | 1061 | [Dating (20)](1061)|
 | 1073 | [Scientific Notation (20)](1073)|
+| 1077 | [Kuchiguse (20)](1077)|
 
