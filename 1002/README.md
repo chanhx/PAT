@@ -12,10 +12,13 @@ For each test case you should output the sum of A and B in one line, with the sa
 
 **Sample Input**
 
+```
 2 1 2.4 0 3.2
-
 2 2 1.5 1 0.5
+```
 
 **Sample Output**
 
+```
 3 2 1.5 1 2.9 0 3.2
+```

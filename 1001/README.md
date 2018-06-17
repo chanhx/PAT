@@ -12,8 +12,12 @@ For each test case, you should output the sum of a and b in one line. The sum mu
 
 **Sample Input**
 
+```
 -1000000 9
+```
 
 **Sample Output**
 
+```
 -999,991
+```

@@ -12,40 +12,44 @@ For each test case, first print the number M of accounts that have been modified
 
 **Sample Input 1:**
 
+```
 3
-
 Team000002 Rlsp0dfa
-
 Team000003 perfectpwd
-
 Team000001 R1spOdfa
+```
 
 **Sample Output 1:**
 
+```
 2
-
 Team000002 RLsp%dfa
-
 Team000001 R@spodfa
+```
 
 **Sample Input 2:**
 
+```
 1
-
 team110 abcdefg332
+```
 
 **Sample Output 2:**
 
+```
 There is 1 account and no account is modified
+```
 
 **Sample Input 3:**
 
+```
 2
-
 team110 abcdefg222
-
 team220 abcdefg333
+```
 
 **Sample Output 3:**
 
+```
 There are 2 accounts and no account is modified
+```

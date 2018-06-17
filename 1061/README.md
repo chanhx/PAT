@@ -12,14 +12,15 @@ For each test case, print the decoded time in one line, in the format "DAY HH:MM
 
 **Sample Input:**
 
+```
 3485djDkxh4hhGE 
-
 2984akDfkkkkggEdsb 
-
 s&hgsfdk 
-
 d&Hyscvnm
+```
 
 **Sample Output:**
 
+```
 THU 14:04
+```

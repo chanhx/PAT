@@ -12,8 +12,12 @@ For each test case, output in one line the digits of the sum in English words. T
 
 **Sample Input:**
 
+```
 12345
+```
 
 **Sample Output:**
 
+```
 one five
+```

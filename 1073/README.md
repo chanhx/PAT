@@ -14,16 +14,24 @@ For each test case, print in one line the input number A in the conventional not
 
 **Sample Input 1:**
 
+```
 +1.23400E-03
+```
 
 **Sample Output 1:**
 
+```
 0.00123400
+```
 
 **Sample Input 2:**
 
+```
 -1.2E+10
+```
 
 **Sample Output 2:**
 
+```
 -12000000000
+```

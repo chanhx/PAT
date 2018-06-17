@@ -18,28 +18,30 @@ For each test case, print in one line the kuchiguse of the character, i.e., the 
 
 **Sample Input 1:**
 
+```
 3
-
 Itai nyan~
-
 Ninjin wa iyadanyan~
-
 uhhh nyan~
+```
 
 **Sample Output 1:**
 
+```
 nyan~
+```
 
 **Sample Input 2:**
 
+```
 3
-
 Itai!
-
 Ninjinnwaiyada T_T
-
 T_T
+```
 
 **Sample Output 2:**
 
+```
 nai
+```
