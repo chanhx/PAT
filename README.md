@@ -9,6 +9,7 @@
 | 1035 | [Password (20)](1035)|
 | 1058 | [A+B in Hogwarts (20)](1058)|
 | 1061 | [Dating (20)](1061)|
+| 1062 | [Talent and Virtue (25)](1062)|
 | 1073 | [Scientific Notation (20)](1073)|
 | 1077 | [Kuchiguse (20)](1077)|
 | 1082 | [Read Number in Chinese (25)](1082)|
