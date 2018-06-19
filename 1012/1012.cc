@@ -1,4 +1,5 @@
 #include <cstdio>
+#include <cmath>
 #include <map>
 #include <vector>
 #include <algorithm>
@@ -12,7 +13,7 @@ struct Student
 
     Student() = default;
     Student(int i, int c, int m, int e): 
-        id(i), grades{c+m+e, c, m, e} {};
+        id(i), grades{static_cast<int>(round(float(c+m+e)/3)), c, m, e} {};
 };
 
 int main()
