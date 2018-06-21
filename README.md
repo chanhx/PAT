@@ -16,3 +16,4 @@
 | 1073 | [Scientific Notation (20)](1073)|
 | 1077 | [Kuchiguse (20)](1077)|
 | 1082 | [Read Number in Chinese (25)](1082)|
+| 1084 | [Broken Keyboard (20)](1084)|
