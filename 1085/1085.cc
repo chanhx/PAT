@@ -19,7 +19,7 @@ int main()
 
     int len = 0;
     for (auto it = seq.cbegin(), end = seq.cend(); it != end; ++it) {
-        auto it2 = upper_bound(it, end, (long long)*it * p);
+        auto it2 = upper_bound(it + 1, end, (long long)*it * p);
         int d = distance(it, it2);
         len = d > len ? d : len;
     }
