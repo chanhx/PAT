@@ -18,9 +18,15 @@ int main()
     sort(seq.begin(), seq.end());
 
     int len = 0;
-    for (auto it = seq.cbegin(), end = seq.cend(); it != end; ++it) {
-        auto it2 = upper_bound(it + 1, end, (long long)*it * p);
-        int d = distance(it, it2);
+    for (auto it1 = seq.cbegin(), it2 = seq.cbegin(), end = seq.cend(); 
+         it2 != end && it1 != end;
+         ++it1)
+    {
+        if (it2 != end) {
+            it2 = upper_bound(it2, end, (long long)*it1 * p);
+        }
+
+        int d = distance(it1, it2);
         len = d > len ? d : len;
     }
     
