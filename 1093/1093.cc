@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int DIVISOR = 1000000007;
+const int kDivisor = 1000000007;
 
 char str[100005];
 
@@ -27,8 +27,8 @@ int main()
                 break;
             case 'T':
                 count[2] += count[1];
-                if (count[2] > DIVISOR) {
-                    count[2] %= DIVISOR;
+                if (count[2] > kDivisor) {
+                    count[2] %= kDivisor;
                 }
                 break;
             default:
