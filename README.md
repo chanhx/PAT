@@ -10,6 +10,7 @@
 | 1025 | [PAT Ranking (25)](1025)|
 | 1028 | [List Sorting (25)](1028)|
 | 1035 | [Password (20)](1035)|
+| 1051 | [Pop Sequence (25)](1051)|
 | 1058 | [A+B in Hogwarts (20)](1058)|
 | 1061 | [Dating (20)](1061)|
 | 1062 | [Talent and Virtue (25)](1062)|
