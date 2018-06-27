@@ -18,6 +18,7 @@
 | 1069 | [The Black Hole of Numbers (20)](1069)|
 | 1070 | [Mooncake (25)](1070)|
 | 1073 | [Scientific Notation (20)](1073)|
+| 1074 | [Reversing Linked List (25)](1074)|
 | 1077 | [Kuchiguse (20)](1077)|
 | 1082 | [Read Number in Chinese (25)](1082)|
 | 1084 | [Broken Keyboard (20)](1084)|
