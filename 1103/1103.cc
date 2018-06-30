@@ -5,11 +5,11 @@
 
 using namespace std;
 
-void FindFactors(int target, int k, int rk, 
-                 int factors_sum, int &pre_factors_sum,
-                 vector<int> &largest_seq,
-                 vector<int> &factors,
-                 vector<int> &ppow)
+void SearchFactors(int target, int k, int rk, 
+                   int factors_sum, int &pre_factors_sum,
+                   vector<int> &largest_seq,
+                   vector<int> &factors,
+                   vector<int> &ppow)
 {
     if (target < k - rk) {return;}
 
@@ -36,7 +36,7 @@ void FindFactors(int target, int k, int rk,
 
         if (rk < k) {
             factors[rk-1] = i;
-            FindFactors(new_target, k, rk+1, 
+            SearchFactors(new_target, k, rk+1, 
                         factors_sum + i, pre_factors_sum, 
                         largest_seq, factors, ppow);
         } else if (rk == k && new_target == 0) {
@@ -70,7 +70,7 @@ int main()
 
     vector<int> largest_seq(k), factors(k);
     int pre_factors_sum = 0;
-    FindFactors(n, k, 1, 0, pre_factors_sum, largest_seq, factors, ppow);
+    SearchFactors(n, k, 1, 0, pre_factors_sum, largest_seq, factors, ppow);
 
     if (largest_seq[0] == 0) {
         printf("Impossible\n");
