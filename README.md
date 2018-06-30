@@ -25,3 +25,4 @@
 | 1085 | [Perfect Sequence (25)](1085)|
 | 1092 | [To Buy or Not to Buy (20)](1092)|
 | 1093 | [Count PAT's (25)](1093)|
+| 1103 | [Integer Factorization (30)](1103)|
