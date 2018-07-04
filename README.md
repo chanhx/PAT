@@ -7,6 +7,7 @@
 | 1005 | [Spell It Right (20)](1005)|
 | 1009 | [Product of Polynomials (25)](1009)|
 | 1012 | [The Best Rank (25)](1012)|
+| 1020 | [Tree Traversals (25)](1020)|
 | 1025 | [PAT Ranking (25)](1025)|
 | 1028 | [List Sorting (25)](1028)|
 | 1035 | [Password (20)](1035)|
