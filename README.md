@@ -23,6 +23,7 @@
 | 1082 | [Read Number in Chinese (25)](1082)|
 | 1084 | [Broken Keyboard (20)](1084)|
 | 1085 | [Perfect Sequence (25)](1085)|
+| 1091 | [Acute Stroke (30)](1091)|
 | 1092 | [To Buy or Not to Buy (20)](1092)|
 | 1093 | [Count PAT's (25)](1093)|
 | 1103 | [Integer Factorization (30)](1103)|
