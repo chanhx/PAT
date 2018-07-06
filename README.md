@@ -5,6 +5,7 @@
 | 1001 | [A+B Format (20)](1001)|
 | 1002 | [A+B for Polynomials (25)](1002)|
 | 1005 | [Spell It Right (20)](1005)|
+| 1007 | [Maximum Subsequence Sum (25)](1007)|
 | 1009 | [Product of Polynomials (25)](1009)|
 | 1012 | [The Best Rank (25)](1012)|
 | 1020 | [Tree Traversals (25)](1020)|
