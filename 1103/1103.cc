@@ -5,15 +5,17 @@
 
 using namespace std;
 
-void SearchFactors(int target, int k, int rk, 
+bool SearchFactors(int target, int k, int rk, 
                    int factors_sum, int &pre_factors_sum,
                    vector<int> &largest_seq,
                    vector<int> &factors,
                    vector<int> &ppow)
 {
-    if (target < k - rk) {return;}
+    if (rk > k) {return false;}
+    if (target < k - rk) {return true;}
 
     int upper_bound = rk > 1 ? factors[rk-2] : ppow.size()-1;
+
     for (int h = upper_bound, l = 1, limit = target-(k-rk); h > l;) {
         int upper_bound = (h + l) / 2;
         if (ppow[upper_bound] > limit) {
@@ -23,34 +25,42 @@ void SearchFactors(int target, int k, int rk,
         }
     }
 
-    if (pre_factors_sum > factors_sum) {
-        int diff = pre_factors_sum - factors_sum;
-        if (diff > upper_bound * (k-rk+1)) {
-            return;
-        }
+    int factors_left = k - rk + 1;
+
+    if (pre_factors_sum > factors_sum &&
+        pre_factors_sum - factors_sum >= upper_bound * factors_left) {
+        return false;
     }
 
     for (int i = upper_bound; i >= 1; --i) {
+
+        if (pre_factors_sum >= factors_sum + i * factors_left) {
+            return true;
+        }
 
         int new_target = target - ppow[i];
 
         if (rk < k) {
             factors[rk-1] = i;
-            SearchFactors(new_target, k, rk+1, 
-                        factors_sum + i, pre_factors_sum, 
-                        largest_seq, factors, ppow);
-        } else if (rk == k && new_target == 0) {
+            bool b = SearchFactors(new_target, k, rk+1, 
+                                   factors_sum + i, pre_factors_sum, 
+                                   largest_seq, factors, ppow);
+
+            if (!b) {
+                return false;
+            }
+        } else if (new_target == 0) {
             factors_sum += i;
             if (factors_sum > pre_factors_sum) {
                 factors[rk-1] = i;
                 pre_factors_sum = factors_sum;
                 largest_seq = factors;
             }
-            return;
-        } else if (rk == k && new_target > 0) {
-            return;
+            return true;
         }
     }
+
+    return true;
 }
 
 int main()
@@ -72,7 +82,7 @@ int main()
     int pre_factors_sum = 0;
     SearchFactors(n, k, 1, 0, pre_factors_sum, largest_seq, factors, ppow);
 
-    if (largest_seq[0] == 0) {
+    if (pre_factors_sum == 0) {
         printf("Impossible\n");
         return 0;
     }
