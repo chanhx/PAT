@@ -8,6 +8,7 @@
 | 1007 | [Maximum Subsequence Sum (25)](1007)|
 | 1009 | [Product of Polynomials (25)](1009)|
 | 1012 | [The Best Rank (25)](1012)|
+| 1013 | [Battle Over Cities (25)](1013)|
 | 1020 | [Tree Traversals (25)](1020)|
 | 1025 | [PAT Ranking (25)](1025)|
 | 1028 | [List Sorting (25)](1028)|
