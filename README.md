@@ -10,6 +10,7 @@
 | 1012 | [The Best Rank (25)](1012)|
 | 1013 | [Battle Over Cities (25)](1013)|
 | 1020 | [Tree Traversals (25)](1020)|
+| 1021 | [Deepest Root (25)](1021)|
 | 1025 | [PAT Ranking (25)](1025)|
 | 1028 | [List Sorting (25)](1028)|
 | 1035 | [Password (20)](1035)|
