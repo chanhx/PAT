@@ -15,6 +15,7 @@
 | 1021 | [Deepest Root (25)](1021)|
 | 1025 | [PAT Ranking (25)](1025)|
 | 1028 | [List Sorting (25)](1028)|
+| 1030 | [Travel Plan (30)](1030)|
 | 1034 | [Head of a Gang (30)](1034)|
 | 1035 | [Password (20)](1035)|
 | 1045 | [Favorite Color Stripe (30)](1045)|
