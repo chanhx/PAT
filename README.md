@@ -27,6 +27,7 @@
 | 1068 | [Find More Coins (30)](1068)|
 | 1069 | [The Black Hole of Numbers (20)](1069)|
 | 1070 | [Mooncake (25)](1070)|
+| 1072 | [Gas Station (30)](1072)|
 | 1073 | [Scientific Notation (20)](1073)|
 | 1074 | [Reversing Linked List (25)](1074)|
 | 1076 | [Forwards on Weibo (30)](1076)|
