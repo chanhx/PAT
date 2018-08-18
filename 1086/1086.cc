@@ -7,7 +7,7 @@ using namespace std;
 struct Node
 {
     int data;
-    struct Node *left, *right;
+    Node *left, *right;
 };
 
 Node * BuildTree(vector<int> &pre, vector<int> &in,
