@@ -38,6 +38,7 @@
 | 1085 | [Perfect Sequence (25)](1085)|
 | 1086 | [Tree Traversals Again (25)](1086)|
 | 1087 | [All Roads Lead to Rome (30)](1087)|
+| 1090 | [Highest Price in Supply Chain（25)](1090)|
 | 1091 | [Acute Stroke (30)](1091)|
 | 1092 | [To Buy or Not to Buy (20)](1092)|
 | 1093 | [Count PAT's (25)](1093)|
