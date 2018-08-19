@@ -5,6 +5,7 @@
 | 1001 | [A+B Format (20)](1001)|
 | 1002 | [A+B for Polynomials (25)](1002)|
 | 1003 | [Emergency (25)](1003)|
+| 1004 | [Counting Leaves (30)](1004)|
 | 1005 | [Spell It Right (20)](1005)|
 | 1007 | [Maximum Subsequence Sum (25)](1007)|
 | 1009 | [Product of Polynomials (25)](1009)|
