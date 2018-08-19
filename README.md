@@ -45,3 +45,4 @@
 | 1094 | [The Largest Generation（25)](1094)|
 | 1102 | [Invert a Binary Tree (25)](1102)|
 | 1103 | [Integer Factorization (30)](1103)|
+| 1106 | [Lowest Price in Supply Chain（25)](1106)|
