@@ -52,3 +52,4 @@
 | 1102 | [Invert a Binary Tree (25)](1102)|
 | 1103 | [Integer Factorization (30)](1103)|
 | 1106 | [Lowest Price in Supply Chain（25)](1106)|
+| 1107 | [Social Clusters（30)](1107)|
