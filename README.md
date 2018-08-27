@@ -48,6 +48,7 @@
 | 1092 | [To Buy or Not to Buy (20)](1092)|
 | 1093 | [Count PAT's (25)](1093)|
 | 1094 | [The Largest Generation（25)](1094)|
+| 1098 | [Insertion or Heap Sort（25)](1098)|
 | 1099 | [Build A Binary Search Tree（30)](1099)|
 | 1102 | [Invert a Binary Tree (25)](1102)|
 | 1103 | [Integer Factorization (30)](1103)|
