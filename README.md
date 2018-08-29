@@ -19,6 +19,7 @@
 | 1030 | [Travel Plan (30)](1030)|
 | 1034 | [Head of a Gang (30)](1034)|
 | 1035 | [Password (20)](1035)|
+| 1040 | [Longest Symmetric String（25)](1040)|
 | 1043 | [Is It a Binary Search Tree (25)](1043)|
 | 1045 | [Favorite Color Stripe (30)](1045)|
 | 1051 | [Pop Sequence (25)](1051)|
