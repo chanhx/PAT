@@ -25,6 +25,7 @@
 | 1051 | [Pop Sequence (25)](1051)|
 | 1053 | [Path of Equal Weight (30)](1053)|
 | 1056 | [Mice and Rice (25)](1056)|
+| 1057 | [Stack（30)](1057)|
 | 1058 | [A+B in Hogwarts (20)](1058)|
 | 1061 | [Dating (20)](1061)|
 | 1062 | [Talent and Virtue (25)](1062)|
