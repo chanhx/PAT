@@ -11,6 +11,7 @@
 | 1009 | [Product of Polynomials (25)](1009)|
 | 1012 | [The Best Rank (25)](1012)|
 | 1013 | [Battle Over Cities (25)](1013)|
+| 1017 | [1017. Queueing at Bank(25)](1017)|
 | 1018 | [Public Bike Management (30)](1018)|
 | 1020 | [Tree Traversals (25)](1020)|
 | 1021 | [Deepest Root (25)](1021)|
