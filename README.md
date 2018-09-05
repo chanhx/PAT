@@ -17,6 +17,7 @@
 | 1020 | [Tree Traversals (25)](1020)|
 | 1021 | [Deepest Root (25)](1021)|
 | 1025 | [PAT Ranking (25)](1025)|
+| 1026 | [Table Tennis (30)](1026)|
 | 1028 | [List Sorting (25)](1028)|
 | 1030 | [Travel Plan (30)](1030)|
 | 1034 | [Head of a Gang (30)](1034)|
