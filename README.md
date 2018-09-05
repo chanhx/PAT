@@ -60,3 +60,4 @@
 | 1105 | [Spiral Matrix (25)](1105)|
 | 1106 | [Lowest Price in Supply Chain（25)](1106)|
 | 1107 | [Social Clusters（30)](1107)|
+| 1136 | [A Delayed Palindrome (20)](1136)|
