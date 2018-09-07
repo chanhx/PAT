@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int MaxForwardsAmount(int v, vector<vector<int>> &graph, int level)
+int BFS(vector<vector<int>> &graph, int v, int level)
 {
     int count = 0;
 
@@ -14,8 +14,8 @@ int MaxForwardsAmount(int v, vector<vector<int>> &graph, int level)
     q.push(v);
     visited[v] = true;
 
-    for (int qsize = q.size(); qsize > 0 && level != 0; qsize = q.size(), level -= 1) {
-        for (int j = 0; j < qsize; ++j) {
+    for (; level != 0; level -= 1) {
+        for (int j = 0, qsize = q.size(); j < qsize; ++j) {
             int i = q.front();
             q.pop();
 
@@ -56,7 +56,7 @@ int main()
         int v;
         scanf("%d", &v);
 
-        printf("%d\n", MaxForwardsAmount(v, graph, l));
+        printf("%d\n", BFS(graph, v, l));
     }
 
     return 0;

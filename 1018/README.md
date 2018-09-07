@@ -20,7 +20,7 @@ Each input file contains one test case. For each case, the first line contains 4
 
 **Output Specification:**
 
-For each test case, print your results in one line. First output the number of bikes that PBMC must send. Then after one space, output the path in the format: 0-&gtS~1~->...-&gtS~p~. Finally after another space, output the number of bikes that we must take back to PBMC after the condition of S~p~ is adjusted to perfect.
+For each test case, print your results in one line. First output the number of bikes that PBMC must send. Then after one space, output the path in the format: 0->S~1~->...->S~p~. Finally after another space, output the number of bikes that we must take back to PBMC after the condition of S~p~ is adjusted to perfect.
 
 Note that if such a path is not unique, output the one that requires minimum number of bikes that we must take back to PBMC. The judge's data guarantee that such a path is unique.
 
@@ -39,5 +39,5 @@ Note that if such a path is not unique, output the one that requires minimum num
 **Sample Output:**
 
 ```
-3 0-&gt2-&gt3 0
+3 0->2->3 0
 ```

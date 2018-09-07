@@ -9,8 +9,8 @@ int main()
     scanf("%d", &n);
 
     vector<int> seq(n);
-    for (int i = 0; i < n; ++i) {
-        scanf("%d", &seq[i]);
+    for (auto &d : seq) {
+        scanf("%d", &d);
     }
 
     vector<int> sum(n), start(n);
